@@ -1,0 +1,23 @@
+@import "node_modules/breakpoint-sass/stylesheets/_breakpoint.scss";
+//@import '_reset.scss';
+
+@import '_fonts.scss';
+@import '_variables.scss';
+@import '_mixins.scss';
+
+$tablet: max-width 769px;
+$mobile: max-width 480px;
+
+body{
+  font-family: $font-roboto;
+
+  .tabelaCampeonato{
+    width: 1000px;
+    margin: 0 auto;
+
+    &__btnResultados{
+      margin: 0 auto;
+      display: block;
+    }
+  }
+}
